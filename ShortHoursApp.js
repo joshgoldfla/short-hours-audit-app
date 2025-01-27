@@ -121,8 +121,8 @@ import micropip\nimport os\nimport json\nimport pandas as pd\n\nfrom datetime im
       setProcessing(false);
     }
   };
-
-  return (
+  
+ return (
     <div className="flex flex-col items-center p-4 gap-6">
       <h1 className="text-2xl font-bold">Short Hours Audit App</h1>
       {loadingPyodide ? (
